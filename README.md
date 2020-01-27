@@ -2,7 +2,7 @@
 ## Name: Aditya Mohan Gupta Roll No: 2019201047
 
 ## 1. Outline :
-This JAVA program takes input a schema of characters and the corresponding command line argument string which contains the respective character values.\
+This JAVA program takes input a schema of characters and the corresponding command line argument string which contains the respective character values.
 
 ## 2. Program Structure and Description of classes :
 - ArgsMain.java : The schema and command line arguments are passed to Args Class to check the values that is set for the corresponding character.
