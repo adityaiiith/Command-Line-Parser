@@ -52,6 +52,8 @@ Command Line Argument: -f -s apple -n 12 -a 42.5 -p abc -p fgh
    7. Access Specifiers : public, private, protected for security of data.
    8. Error Handling : Throwing exceptions is better than returning different codes dependent on errors.
 
+Steps for running the file : 
+
 ## Install/Update Java
       * sudo add-apt-repository ppa:openjdk-r/ppa
       * sudo apt-get update -q 
