@@ -33,7 +33,7 @@ Schema description :
  
 Command Line Argument: -f -s apple -n 12 -a 42.5 -p abc -p fgh
 
-## 4. Implemented features
+## 4. Implemented features :
 - Exception handling
 - User Input Dynamic Processing
 - Inheritance                    
@@ -41,7 +41,7 @@ Command Line Argument: -f -s apple -n 12 -a 42.5 -p abc -p fgh
 - Interface Overriding
 - Classes with default Constructor
 
-## 5. Clean code attributes included
+## 5. Clean code attributes included :
  
    1. Clear understanding of the code with proper flow.
    2. Reusability of Code : Naming convention is done which gives understanding of the functionality and used single word per       module.
