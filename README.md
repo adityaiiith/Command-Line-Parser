@@ -29,7 +29,7 @@ Schema description :
  - char*   - String arg
  - char#   - Integer arg
  - char##  - double arg
- - char[\*] - one element of a string array\
+ - char[\*] - one element of a string array
  
 Command Line Argument: -f -s apple -n 12 -a 42.5 -p abc -p fgh
 
