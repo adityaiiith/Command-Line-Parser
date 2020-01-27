@@ -14,12 +14,12 @@ This JAVA program takes input a schema of characters and the corresponding comma
                      2. returns populated Map to Args.java.
 - ParseArgument.java :1. It populates the Map with character and its respective datatype objects defined by given schema.\
                       2. returns this map to Args.java. 
-- BooleanArgumentMarshaler : If Character present value=true else false.
-- IntegerArgumentMarshaler : Intitalizes the Integer corresponding to character passed.
-- DoubleArgumentMarshaler : Intitalizes the Double corresponding to character passed.
-- StringArgumentMarshaler : Intitalizes the String corresponding to character passed.
-- StringArrayArgumentMarshaler : Intitalizes Multiplte Strings corresponding to character passed as Array.
-- MapArgumentMarshaler : Intitalizes String Map corresponding to character passed.
+- BooleanSetter : If Character present value=true else false.
+- IntegerSetter : Intitalizes the Integer corresponding to character passed.
+- DoubleSetter : Intitalizes the Double corresponding to character passed.
+- StringSetter : Intitalizes the String corresponding to character passed.
+- StringArraySetter : Intitalizes Multiplte Strings corresponding to character passed as Array.
+- MapSetter : Intitalizes String Map corresponding to character passed.
 
 ## 3. Schema Description : 
 Schema: f,s*,a##,n#,p[\*]
