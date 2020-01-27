@@ -51,3 +51,18 @@ Command Line Argument: -f -s apple -n 12 -a 42.5 -p abc -p fgh
    6. Less Code Redundancy : Writing code in functions and classes.
    7. Access Specifiers : public, private, protected for security of data.
    8. Error Handling : Throwing exceptions is better than returning different codes dependent on errors.
+
+## Install/Update Java
+      * sudo add-apt-repository ppa:openjdk-r/ppa
+      * sudo apt-get update -q 
+      * sudo apt install -y openjdk-11-jdk 
+## For The Main File
+      * Clone this repo 
+      * install ant by running 'sudo apt-get install ant'
+      * then go to the folder where you have cloned this repo
+      * run 'ant compile'
+      * run 'ant jar'
+      * run 'java -cp build/jar/args.jar com.cleancoder.args.ArgsMain'
+## For the tests
+        * Run the command given below from the root folder of this repo
+        * 'java -cp "lib/junit-4.13.jar:lib/hamcrest-core-1.3.jar:build/jar/args.jar" ./test/com/cleancoder/args/ArgsTest.java testCreateWithNoSchemaOrArguments
